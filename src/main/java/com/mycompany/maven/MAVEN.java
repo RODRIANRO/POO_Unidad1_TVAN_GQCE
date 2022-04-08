@@ -15,14 +15,23 @@ public class MAVEN {
         System.out.println("Hello World!");
         
         var empleadoNuevo = new Empleado();
-        empleadoNuevo.nombre="Angel";
-        empleadoNuevo.costoHoras= 21;
-        empleadoNuevo.horasTrabajadas= 8;
-        empleadoNuevo.anoIngreso= 425;
+        empleadoNuevo.nombre="Juan";
+        empleadoNuevo.costoHoras= 6;
+        empleadoNuevo.horasTrabajadas= 100;
+        empleadoNuevo.anoIngreso= 2010;
+        empleadoNuevo.anoActual=2020;
         
         System.out.println(empleadoNuevo.nombre+" | "+
                            empleadoNuevo.costoHoras+" | "+
                            empleadoNuevo.horasTrabajadas+" | "+
                            empleadoNuevo.anoIngreso+" | ");
+        
+        
+         var aPagar=1000d;
+        aPagar=empleadoNuevo.valorPagar(0 ,1000);
+        System.out.println("El ingreso es:"(+0.02*anoActual-anoIngreso)*horasTrabajadas);
+        
+      
+        
     }
 }

@@ -13,5 +13,12 @@ public class Empleado {
     int horasTrabajadas;
     double costoHoras;
     int anoIngreso;
+    int anoActual;
+    
+     public int valorPagar(){
+        var retorno= true;
+        if(this.costoHoras=>0  && this.horasTrabajadas>100){
+            retorno;
+    
     
 }
