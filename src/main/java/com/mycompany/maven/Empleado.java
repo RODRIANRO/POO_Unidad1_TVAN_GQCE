@@ -15,10 +15,10 @@ public class Empleado {
     int anoIngreso;
     int anoActual;
     
-     public int valorPagar(){
-        var retorno= true;
-        if(this.costoHoras=>0  && this.horasTrabajadas>100){
-            retorno;
-    
-    
+     public int anoYear(int currendYear )
+     {
+          var retorno=2020;
+           retorno=currendYear-this.year;
+          return retorno;
+     }
 }
