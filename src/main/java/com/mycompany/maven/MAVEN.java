@@ -19,13 +19,13 @@ public class MAVEN {
         empleadoNuevo.costoHoras= 6;
         empleadoNuevo.horasTrabajadas= 100;
         empleadoNuevo.anoIngreso= 2010;
-        empleadoNuevo.anoActual=2020;
+        empleadoNuevo.anoActual=2022;
         
         
-        var anoPagar=empleadoNuevo.anoYear(2022);
-        System.out.println("el total a pagar es"+0.02*empleadoNuevo.anoActual+"dolares");
+        System.out.println("Nombre :"+ empleadoNuevo.nombre + " ingreso hace :" + empleadoNuevo.anoYear(2020)
+                            + "años en la enpresa");
         
-        
+        System.out.println(" Su Ingreso es:"+empleadoNuevo.calculoIngresos(2022, 2010));
       
         
     }

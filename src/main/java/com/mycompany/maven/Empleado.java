@@ -17,8 +17,17 @@ public class Empleado {
     
      public int anoYear(int currendYear )
      {
-          var retorno=2020;
-           retorno=currendYear-this.year;
+          var retorno=1000;
+           retorno=currendYear-this.anoIngreso;
           return retorno;
+     }
+     
+     public double calculoIngresos ( int currentYear, int anoIngreso){
+       var retorno=100000d;
+       retorno=((0.02)*(currentYear-anoIngreso)*(costoHoras*horasTrabajadas)+(costoHoras*horasTrabajadas));
+       
+       
+     return retorno;
+     
      }
 }
